@@ -1,0 +1,3139 @@
+{
+  "repository": "trindadetiago/aquario",
+  "fetched_at": "2025-10-18T17:48:43.134Z",
+  "statistics": {
+    "total_contributors": 7,
+    "total_commits": 183,
+    "most_active_contributor": "trindadetiago",
+    "commit_distribution": {
+      "1-5": 1,
+      "6-20": 2,
+      "21-50": 3,
+      "51-100": 1
+    },
+    "weekly_activity": {
+      "2024-07-14": {
+        "commits": 4,
+        "contributors": 7
+      },
+      "2024-07-21": {
+        "commits": 1,
+        "contributors": 7
+      },
+      "2024-07-28": {
+        "commits": 1,
+        "contributors": 7
+      },
+      "2024-08-04": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2024-08-11": {
+        "commits": 1,
+        "contributors": 7
+      },
+      "2024-08-18": {
+        "commits": 3,
+        "contributors": 7
+      },
+      "2024-08-25": {
+        "commits": 2,
+        "contributors": 7
+      },
+      "2024-09-01": {
+        "commits": 14,
+        "contributors": 7
+      },
+      "2024-09-08": {
+        "commits": 10,
+        "contributors": 7
+      },
+      "2024-09-15": {
+        "commits": 1,
+        "contributors": 7
+      },
+      "2024-09-22": {
+        "commits": 5,
+        "contributors": 7
+      },
+      "2024-09-29": {
+        "commits": 4,
+        "contributors": 7
+      },
+      "2024-10-06": {
+        "commits": 1,
+        "contributors": 7
+      },
+      "2024-10-13": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2024-10-20": {
+        "commits": 1,
+        "contributors": 7
+      },
+      "2024-10-27": {
+        "commits": 1,
+        "contributors": 7
+      },
+      "2024-11-03": {
+        "commits": 10,
+        "contributors": 7
+      },
+      "2024-11-10": {
+        "commits": 8,
+        "contributors": 7
+      },
+      "2024-11-17": {
+        "commits": 11,
+        "contributors": 7
+      },
+      "2024-11-24": {
+        "commits": 6,
+        "contributors": 7
+      },
+      "2024-12-01": {
+        "commits": 4,
+        "contributors": 7
+      },
+      "2024-12-08": {
+        "commits": 2,
+        "contributors": 7
+      },
+      "2024-12-15": {
+        "commits": 2,
+        "contributors": 7
+      },
+      "2024-12-22": {
+        "commits": 3,
+        "contributors": 7
+      },
+      "2024-12-29": {
+        "commits": 2,
+        "contributors": 7
+      },
+      "2025-01-05": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-01-12": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-01-19": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-01-26": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-02-02": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-02-09": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-02-16": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-02-23": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-03-02": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-03-09": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-03-16": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-03-23": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-03-30": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-04-06": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-04-13": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-04-20": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-04-27": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-05-04": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-05-11": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-05-18": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-05-25": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-06-01": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-06-08": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-06-15": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-06-22": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-06-29": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-07-06": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-07-13": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-07-20": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-07-27": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-08-03": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-08-10": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-08-17": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-08-24": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-08-31": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-09-07": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-09-14": {
+        "commits": 20,
+        "contributors": 7
+      },
+      "2025-09-21": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-09-28": {
+        "commits": 3,
+        "contributors": 7
+      },
+      "2025-10-05": {
+        "commits": 0,
+        "contributors": 7
+      },
+      "2025-10-12": {
+        "commits": 63,
+        "contributors": 7
+      }
+    }
+  },
+  "contributors": [
+    {
+      "author": {
+        "login": "actions-user",
+        "id": 65916846,
+        "avatar_url": null,
+        "html_url": null,
+        "type": "User"
+      },
+      "total_commits": 5,
+      "weeks": [
+        {
+          "week_start": "2024-07-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-19",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-26",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-30",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-31",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-07",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-12",
+          "commits": 5,
+          "additions": 186,
+          "deletions": 43
+        }
+      ]
+    },
+    {
+      "author": {
+        "login": "Emysntts",
+        "id": 123260644,
+        "avatar_url": null,
+        "html_url": null,
+        "type": "User"
+      },
+      "total_commits": 10,
+      "weeks": [
+        {
+          "week_start": "2024-07-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-01",
+          "commits": 2,
+          "additions": 316,
+          "deletions": 48
+        },
+        {
+          "week_start": "2024-09-08",
+          "commits": 1,
+          "additions": 1871,
+          "deletions": 14
+        },
+        {
+          "week_start": "2024-09-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-03",
+          "commits": 3,
+          "additions": 175,
+          "deletions": 167
+        },
+        {
+          "week_start": "2024-11-10",
+          "commits": 1,
+          "additions": 14,
+          "deletions": 9
+        },
+        {
+          "week_start": "2024-11-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-08",
+          "commits": 2,
+          "additions": 58,
+          "deletions": 22
+        },
+        {
+          "week_start": "2024-12-15",
+          "commits": 1,
+          "additions": 66,
+          "deletions": 38
+        },
+        {
+          "week_start": "2024-12-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-19",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-26",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-30",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-31",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-07",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "author": {
+        "login": "matheusfer0902",
+        "id": 79976267,
+        "avatar_url": null,
+        "html_url": null,
+        "type": "User"
+      },
+      "total_commits": 12,
+      "weeks": [
+        {
+          "week_start": "2024-07-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-01",
+          "commits": 1,
+          "additions": 93,
+          "deletions": 5
+        },
+        {
+          "week_start": "2024-09-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-15",
+          "commits": 1,
+          "additions": 119,
+          "deletions": 1
+        },
+        {
+          "week_start": "2024-09-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-27",
+          "commits": 1,
+          "additions": 245,
+          "deletions": 8
+        },
+        {
+          "week_start": "2024-11-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-10",
+          "commits": 3,
+          "additions": 6,
+          "deletions": 6
+        },
+        {
+          "week_start": "2024-11-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-15",
+          "commits": 1,
+          "additions": 18,
+          "deletions": 14
+        },
+        {
+          "week_start": "2024-12-22",
+          "commits": 3,
+          "additions": 163,
+          "deletions": 54
+        },
+        {
+          "week_start": "2024-12-29",
+          "commits": 2,
+          "additions": 135,
+          "deletions": 90
+        },
+        {
+          "week_start": "2025-01-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-19",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-26",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-30",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-31",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-07",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "author": {
+        "login": "maurocoimbra",
+        "id": 90289072,
+        "avatar_url": null,
+        "html_url": null,
+        "type": "User"
+      },
+      "total_commits": 22,
+      "weeks": [
+        {
+          "week_start": "2024-07-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-01",
+          "commits": 7,
+          "additions": 114,
+          "deletions": 88
+        },
+        {
+          "week_start": "2024-09-08",
+          "commits": 1,
+          "additions": 97,
+          "deletions": 1
+        },
+        {
+          "week_start": "2024-09-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-22",
+          "commits": 3,
+          "additions": 110,
+          "deletions": 16
+        },
+        {
+          "week_start": "2024-09-29",
+          "commits": 4,
+          "additions": 119,
+          "deletions": 21
+        },
+        {
+          "week_start": "2024-10-06",
+          "commits": 1,
+          "additions": 2,
+          "deletions": 20
+        },
+        {
+          "week_start": "2024-10-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-24",
+          "commits": 6,
+          "additions": 407,
+          "deletions": 359
+        },
+        {
+          "week_start": "2024-12-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-19",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-26",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-30",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-31",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-07",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "author": {
+        "login": "ianbitt",
+        "id": 163481621,
+        "avatar_url": null,
+        "html_url": null,
+        "type": "User"
+      },
+      "total_commits": 26,
+      "weeks": [
+        {
+          "week_start": "2024-07-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-01",
+          "commits": 3,
+          "additions": 1012,
+          "deletions": 89
+        },
+        {
+          "week_start": "2024-09-08",
+          "commits": 8,
+          "additions": 2334,
+          "deletions": 128
+        },
+        {
+          "week_start": "2024-09-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-22",
+          "commits": 2,
+          "additions": 1628,
+          "deletions": 95
+        },
+        {
+          "week_start": "2024-09-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-20",
+          "commits": 1,
+          "additions": 146,
+          "deletions": 31
+        },
+        {
+          "week_start": "2024-10-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-03",
+          "commits": 4,
+          "additions": 803,
+          "deletions": 435
+        },
+        {
+          "week_start": "2024-11-10",
+          "commits": 4,
+          "additions": 548,
+          "deletions": 482
+        },
+        {
+          "week_start": "2024-11-17",
+          "commits": 2,
+          "additions": 32,
+          "deletions": 26
+        },
+        {
+          "week_start": "2024-11-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-01",
+          "commits": 2,
+          "additions": 17,
+          "deletions": 19
+        },
+        {
+          "week_start": "2024-12-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-19",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-26",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-30",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-31",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-07",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "author": {
+        "login": "ralfferreira",
+        "id": 57114762,
+        "avatar_url": null,
+        "html_url": null,
+        "type": "User"
+      },
+      "total_commits": 28,
+      "weeks": [
+        {
+          "week_start": "2024-07-14",
+          "commits": 4,
+          "additions": 46,
+          "deletions": 1
+        },
+        {
+          "week_start": "2024-07-21",
+          "commits": 1,
+          "additions": 57,
+          "deletions": 12
+        },
+        {
+          "week_start": "2024-07-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-19",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-26",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-30",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-31",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-07",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-14",
+          "commits": 20,
+          "additions": 8608,
+          "deletions": 1554
+        },
+        {
+          "week_start": "2025-09-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-28",
+          "commits": 3,
+          "additions": 382,
+          "deletions": 43
+        },
+        {
+          "week_start": "2025-10-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "author": {
+        "login": "trindadetiago",
+        "id": 111463808,
+        "avatar_url": null,
+        "html_url": null,
+        "type": "User"
+      },
+      "total_commits": 80,
+      "weeks": [
+        {
+          "week_start": "2024-07-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-07-28",
+          "commits": 1,
+          "additions": 10,
+          "deletions": 1
+        },
+        {
+          "week_start": "2024-08-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-11",
+          "commits": 1,
+          "additions": 5760,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-08-18",
+          "commits": 3,
+          "additions": 6382,
+          "deletions": 5920
+        },
+        {
+          "week_start": "2024-08-25",
+          "commits": 2,
+          "additions": 268,
+          "deletions": 14
+        },
+        {
+          "week_start": "2024-09-01",
+          "commits": 1,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-09-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-10-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-03",
+          "commits": 3,
+          "additions": 8085,
+          "deletions": 137
+        },
+        {
+          "week_start": "2024-11-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-11-17",
+          "commits": 9,
+          "additions": 5963,
+          "deletions": 1586
+        },
+        {
+          "week_start": "2024-11-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-01",
+          "commits": 2,
+          "additions": 78,
+          "deletions": 75
+        },
+        {
+          "week_start": "2024-12-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2024-12-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-12",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-19",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-01-26",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-02-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-02",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-09",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-16",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-23",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-03-30",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-04-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-04",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-11",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-18",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-05-25",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-01",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-08",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-15",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-22",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-06-29",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-06",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-13",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-20",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-07-27",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-03",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-10",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-17",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-24",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-08-31",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-07",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-14",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-21",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-09-28",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-05",
+          "commits": 0,
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "week_start": "2025-10-12",
+          "commits": 58,
+          "additions": 43968,
+          "deletions": 24176
+        }
+      ]
+    }
+  ]
+}

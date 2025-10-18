@@ -1,0 +1,280 @@
+{
+  "repository": "ralfferreira/aquario",
+  "fetched_at": "2025-10-18T17:49:27.572Z",
+  "statistics": {
+    "total_contributors": 6,
+    "total_commits": 165,
+    "most_active_contributor": "trindadetiago",
+    "commit_distribution": {
+      "6-20": 2,
+      "21-50": 3,
+      "51-100": 1
+    },
+    "weekly_activity": {
+      "2024-07-14": {
+        "commits": 4,
+        "contributors": 6
+      },
+      "2024-07-21": {
+        "commits": 1,
+        "contributors": 6
+      },
+      "2024-07-28": {
+        "commits": 1,
+        "contributors": 6
+      },
+      "2024-08-04": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2024-08-11": {
+        "commits": 1,
+        "contributors": 6
+      },
+      "2024-08-18": {
+        "commits": 3,
+        "contributors": 6
+      },
+      "2024-08-25": {
+        "commits": 2,
+        "contributors": 6
+      },
+      "2024-09-01": {
+        "commits": 14,
+        "contributors": 6
+      },
+      "2024-09-08": {
+        "commits": 10,
+        "contributors": 6
+      },
+      "2024-09-15": {
+        "commits": 1,
+        "contributors": 6
+      },
+      "2024-09-22": {
+        "commits": 5,
+        "contributors": 6
+      },
+      "2024-09-29": {
+        "commits": 4,
+        "contributors": 6
+      },
+      "2024-10-06": {
+        "commits": 1,
+        "contributors": 6
+      },
+      "2024-10-13": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2024-10-20": {
+        "commits": 1,
+        "contributors": 6
+      },
+      "2024-10-27": {
+        "commits": 1,
+        "contributors": 6
+      },
+      "2024-11-03": {
+        "commits": 10,
+        "contributors": 6
+      },
+      "2024-11-10": {
+        "commits": 8,
+        "contributors": 6
+      },
+      "2024-11-17": {
+        "commits": 11,
+        "contributors": 6
+      },
+      "2024-11-24": {
+        "commits": 6,
+        "contributors": 6
+      },
+      "2024-12-01": {
+        "commits": 4,
+        "contributors": 6
+      },
+      "2024-12-08": {
+        "commits": 2,
+        "contributors": 6
+      },
+      "2024-12-15": {
+        "commits": 2,
+        "contributors": 6
+      },
+      "2024-12-22": {
+        "commits": 3,
+        "contributors": 6
+      },
+      "2024-12-29": {
+        "commits": 2,
+        "contributors": 6
+      },
+      "2025-01-05": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-01-12": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-01-19": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-01-26": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-02-02": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-02-09": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-02-16": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-02-23": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-03-02": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-03-09": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-03-16": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-03-23": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-03-30": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-04-06": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-04-13": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-04-20": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-04-27": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-05-04": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-05-11": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-05-18": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-05-25": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-06-01": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-06-08": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-06-15": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-06-22": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-06-29": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-07-06": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-07-13": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-07-20": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-07-27": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-08-03": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-08-10": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-08-17": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-08-24": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-08-31": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-09-07": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-09-14": {
+        "commits": 20,
+        "contributors": 6
+      },
+      "2025-09-21": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-09-28": {
+        "commits": 3,
+        "contributors": 6
+      },
+      "2025-10-05": {
+        "commits": 0,
+        "contributors": 6
+      },
+      "2025-10-12": {
+        "commits": 45,
+        "contributors": 6
+      }
+    }
+  }
+}
