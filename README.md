@@ -17,6 +17,13 @@ Este repositório contém scripts e workflows automatizados para gerar estatíst
 - **Distribuição de Commits**: Como os commits estão distribuídos entre os contribuidores
 - **Resumo de Atividade**: Comparação entre diferentes períodos (4, 8 semanas e histórico completo)
 
+### 🎨 Visualizações Geradas
+
+- **Top 3 Contribuidores**: Gráfico de barras elegante destacando os 3 principais colaboradores
+- **Ranking Completo**: Gráfico abrangente com todos os contribuidores, commits e linhas de código
+- **Design Profissional**: Cores personalizadas, medalhas e informações do repositório
+- **Alta Resolução**: Imagens em 300 DPI, perfeitas para apresentações e documentação
+
 ### 🔄 Automação
 
 - **Execução Automática**: Roda todo domingo às 2h UTC
@@ -33,7 +40,12 @@ aquario-stats/
 │       └── contributor-stats.yml    # Workflow principal
 ├── scripts/
 │   ├── fetch-contributors.js        # Busca dados dos contribuidores
-│   └── generate-insights.js         # Gera insights e markdown
+│   ├── generate-insights.js         # Gera insights e markdown
+│   └── generate-images.py          # Gera visualizações em Python
+├── images/                          # Imagens geradas automaticamente
+│   ├── top3-contributors.png        # Gráfico top 3 contribuidores
+│   └── complete-ranking.png         # Ranking completo
+├── requirements.txt                 # Dependências Python
 └── README.md                        # Este arquivo
 ```
 
@@ -50,9 +62,15 @@ aquario-stats/
 - Gera análise de tendências
 - Cria relatório em markdown formatado
 
-### 3. **Automação** (GitHub Actions)
+### 3. **Geração de Visualizações** (`generate-images.py`)
+- Cria gráficos profissionais usando Python
+- Gera imagem do top 3 contribuidores
+- Gera ranking completo com todos os dados
+- Salva imagens em alta resolução (300 DPI)
+
+### 4. **Automação** (GitHub Actions)
 - Executa os scripts automaticamente
-- Commita o arquivo `CONTRIBUTOR_INSIGHTS.md` gerado
+- Commita o arquivo `CONTRIBUTOR_INSIGHTS.md` e imagens geradas
 - Pode ser executado manualmente quando necessário
 
 ## 📊 Exemplo de Saída
@@ -80,4 +98,68 @@ O script gera um arquivo `CONTRIBUTOR_INSIGHTS.md` com:
 🥇 **1.** [@ralfferreira](https://github.com/ralfferreira) - 89 commits
 🥈 **2.** [@trindadetiago](https://github.com/trindadetiago) - 45 commits
 🥉 **3.** [@ianbitt](https://github.com/ianbitt) - 32 commits
+```
+
+## 📋 Pré-requisitos
+
+- Node.js 18+
+- Python 3.9+
+- Acesso à API do GitHub (para repositórios públicos, não é necessário token)
+- Permissões de escrita no repositório (para commits automáticos)
+- Dependências Python: `matplotlib`, `seaborn`, `numpy` (para widgets HTML)
+
+## 🔧 Como Usar
+
+### Execução Manual
+
+1. Clone este repositório
+2. Instale as dependências:
+   ```bash
+   # Instalar dependências Python
+   pip install -r requirements.txt
+   ```
+3. Execute os scripts:
+
+```bash
+# Buscar dados dos contribuidores
+node scripts/fetch-contributors.js ralfferreira aquario
+
+# Gerar insights
+node scripts/generate-insights.js
+
+# Gerar widgets HTML
+python scripts/generate-widgets.py
+```
+
+### Execução Automática
+
+O workflow é executado automaticamente:
+- **Todo domingo às 2h UTC**
+- **Quando há push na branch main** (apenas se os scripts ou workflow mudaram)
+- **Manualmente** via GitHub Actions
+
+## 🔗 Integração com o Aquário
+
+Para integrar as estatísticas ao repositório principal do Aquário:
+
+1. **Copie o conteúdo** do arquivo `CONTRIBUTOR_INSIGHTS.md` gerado
+2. **Cole no README** ou crie uma seção dedicada no repositório `ralfferreira/aquario`
+3. **Inclua as imagens** da pasta `images/` para visualizações
+4. **Atualize periodicamente** ou configure webhook para atualização automática
+
+### Exemplo de Integração
+
+```markdown
+<!-- No README.md do Aquário -->
+## 📊 Estatísticas do Projeto
+
+<details>
+<summary>Ver estatísticas detalhadas dos contribuidores</summary>
+
+<!-- Cole aqui o conteúdo do CONTRIBUTOR_INSIGHTS.md -->
+
+![Top 3 Contribuidores](images/top3-contributors.png)
+![Ranking Completo](images/complete-ranking.png)
+
+</details>
 ```

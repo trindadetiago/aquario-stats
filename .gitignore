@@ -1,0 +1,3 @@
+// files that are json and start with "contributors- "
+contributors-*.json
+contributors-summary-*.json

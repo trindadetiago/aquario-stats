@@ -29,6 +29,16 @@ jobs:
         with:
           node-version: "18"
 
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: Fetch contributor data
         run: |
           node scripts/fetch-contributors.js ralfferreira aquario
@@ -37,10 +47,14 @@ jobs:
         run: |
           node scripts/generate-insights.js
 
+      - name: Generate visualization images
+        run: |
+          python scripts/generate-images.py
+
       - name: Commit and push insights
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add CONTRIBUTOR_INSIGHTS.md
-          git diff --staged --quiet || git commit -m "📊 Update contributor insights [skip ci]"
+          git add CONTRIBUTOR_INSIGHTS.md images/
+          git diff --staged --quiet || git commit -m "📊 Update contributor insights and visualizations [skip ci]"
           git push
