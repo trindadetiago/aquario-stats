@@ -124,7 +124,7 @@ class HTMLStatsGenerator:
         medals = ['🥇', '🥈', '🥉', '🏅', '🏅']
         contributors_html = ""
         
-        for i, contributor in enumerate(data['contributors'][:5]):  # Top 5
+        for i, contributor in enumerate(data['contributors'][:3]):  # Top 3
             medal = medals[i] if i < len(medals) else '🏅'
             contributors_html += f'''
                 <div class="contributor-item">
@@ -263,7 +263,7 @@ class HTMLStatsGenerator:
             overview_html,
             self.output_dir / "top3-contributors.png",
             width=600,
-            height=500
+            height=655
         )
         
         if overview_success:
@@ -279,7 +279,7 @@ class HTMLStatsGenerator:
             detailed_html,
             self.output_dir / "complete-ranking.png",
             width=800,
-            height=600
+            height=630
         )
         
         if detailed_success:
