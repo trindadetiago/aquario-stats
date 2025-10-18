@@ -130,11 +130,11 @@ echo ""
 echo "🎨 Step 3: Generating Visualization Images"
 echo "==========================================="
 
-print_status "Generating visualization images..."
-if python3 scripts/generate-images.py; then
-    print_success "✅ Visualization images generated successfully"
+print_status "Generating HTML-to-image visualizations..."
+if python3 scripts/generate-html-images.py; then
+    print_success "✅ HTML-to-image visualizations generated successfully"
 else
-    print_error "Failed to generate visualization images"
+    print_error "Failed to generate HTML-to-image visualizations"
     exit 1
 fi
 

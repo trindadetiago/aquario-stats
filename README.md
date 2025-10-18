@@ -19,10 +19,10 @@ Este repositório contém scripts e workflows automatizados para gerar estatíst
 
 ### 🎨 Visualizações Geradas
 
-- **Top 3 Contribuidores**: Gráfico de barras elegante destacando os 3 principais colaboradores
-- **Ranking Completo**: Gráfico abrangente com todos os contribuidores, commits e linhas de código
-- **Design Profissional**: Cores personalizadas, medalhas e informações do repositório
-- **Alta Resolução**: Imagens em 300 DPI, perfeitas para apresentações e documentação
+- **Top 3 Contribuidores**: Widget estilo GitHub com os principais colaboradores
+- **Ranking Completo**: Tabela detalhada com todos os contribuidores e métricas
+- **Design GitHub-Native**: Estilo idêntico aos widgets do GitHub
+- **Alta Qualidade**: Imagens renderizadas em alta resolução (2x DPI)
 
 ### 🔄 Automação
 
@@ -41,7 +41,10 @@ aquario-stats/
 ├── scripts/
 │   ├── fetch-contributors.js        # Busca dados dos contribuidores
 │   ├── generate-insights.js         # Gera insights e markdown
-│   └── generate-images.py          # Gera visualizações em Python
+│   └── generate-html-images.py     # Gera imagens HTML-to-PNG
+├── templates/                        # Templates HTML estilo GitHub
+│   ├── overview-stats.html          # Template widget visão geral
+│   └── detailed-ranking.html        # Template ranking detalhado
 ├── images/                          # Imagens geradas automaticamente
 │   ├── top3-contributors.png        # Gráfico top 3 contribuidores
 │   └── complete-ranking.png         # Ranking completo
@@ -62,11 +65,12 @@ aquario-stats/
 - Gera análise de tendências
 - Cria relatório em markdown formatado
 
-### 3. **Geração de Visualizações** (`generate-images.py`)
-- Cria gráficos profissionais usando Python
+### 3. **Geração de Imagens HTML** (`generate-html-images.py`)
+- Cria templates HTML com design estilo GitHub
+- Renderiza HTML para PNG usando Puppeteer
 - Gera imagem do top 3 contribuidores
 - Gera ranking completo com todos os dados
-- Salva imagens em alta resolução (300 DPI)
+- Salva imagens em alta resolução (2x DPI)
 
 ### 4. **Automação** (GitHub Actions)
 - Executa os scripts automaticamente

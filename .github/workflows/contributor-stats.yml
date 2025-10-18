@@ -47,9 +47,9 @@ jobs:
         run: |
           node scripts/generate-insights.js
 
-      - name: Generate visualization images
+      - name: Generate HTML-to-image visualizations
         run: |
-          python scripts/generate-images.py
+          python scripts/generate-html-images.py
 
       - name: Commit and push insights
         run: |
