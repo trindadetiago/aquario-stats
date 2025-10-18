@@ -275,11 +275,13 @@ class HTMLStatsGenerator:
         # Generate detailed ranking image
         print("🎨 Generating detailed ranking image...")
         detailed_html = self.create_detailed_html(data)
+        height_complete_ranking = 360
+        height_complete_ranking = height_complete_ranking + (len(data['contributors']) * 45)
         detailed_success = await self.render_html_to_image(
             detailed_html,
             self.output_dir / "complete-ranking.png",
             width=800,
-            height=630
+            height=height_complete_ranking
         )
         
         if detailed_success:
