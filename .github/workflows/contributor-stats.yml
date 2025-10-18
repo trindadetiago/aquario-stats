@@ -1,0 +1,41 @@
+name: Generate Contributor Insights
+
+on:
+  schedule:
+    # Run every Sunday at 2 AM UTC
+    - cron: "0 2 * * 0"
+  workflow_dispatch: # Allow manual triggering
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate-insights.js"
+      - ".github/workflows/contributor-insights.yml"
+
+jobs:
+  generate-insights:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Fetch contributor data
+        run: |
+          node scripts/fetch-contributors.js ralfferreira aquario
+
+      - name: Generate insights markdown
+        run: |
+          node scripts/generate-insights.js
+
+      - name: Commit and push insights
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add CONTRIBUTOR_INSIGHTS.md
+          git diff --staged --quiet || git commit -m "📊 Update contributor insights [skip ci]"
+          git push
