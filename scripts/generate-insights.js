@@ -403,6 +403,8 @@ class ContributorInsightsGenerator {
 
 ## 🏆 Top Contributors
 
+| Rank | Contributor | Commits | Lines Added | Lines Deleted | Net Lines |
+|------|-------------|---------|-------------|---------------|-----------|
 ${insights.topContributors
   .map((contributor, index) => {
     const medal = ["🥇", "🥈", "🥉"][index] || "🏅";
@@ -410,11 +412,11 @@ ${insights.topContributors
       contributor.netLines >= 0
         ? `+${contributor.netLines.toLocaleString()}`
         : contributor.netLines.toLocaleString();
-    return `${medal} **${index + 1}.** [@${
+    return `| ${medal} ${index + 1} | [@${
       contributor.name
-    }](https://github.com/${contributor.name}) - ${
+    }](https://github.com/${contributor.name}) | ${
       contributor.commits
-    } commits (${contributor.additions.toLocaleString()}+ / ${contributor.deletions.toLocaleString()}- / ${netLinesDisplay} net)`;
+    } | +${contributor.additions.toLocaleString()} | -${contributor.deletions.toLocaleString()} | ${netLinesDisplay} |`;
   })
   .join("\n")}
 
