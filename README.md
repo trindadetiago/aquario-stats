@@ -162,8 +162,19 @@ Para integrar as estatísticas ao repositório principal do Aquário:
 
 <!-- Cole aqui o conteúdo do CONTRIBUTOR_INSIGHTS.md -->
 
+### 📊 Preview das Imagens Geradas
+
+**Top 3 Contribuidores:**
 ![Top 3 Contribuidores](images/top3-contributors.png)
+
+**Ranking Completo:**
 ![Ranking Completo](images/complete-ranking.png)
 
 </details>
 ```
+
+**Top 3 Contribuidores:**
+![Top 3 Contribuidores](https://github.com/trindadetiago/aquario-stats/blob/main/images/top3-contributors.png?raw=true)
+
+**Ranking Completo:**
+![Ranking Completo](https://github.com/trindadetiago/aquario-stats/blob/main/images/complete-ranking.png?raw=true)
