@@ -30,7 +30,12 @@ class GitHubContributorsFetcher {
    * Fetch contributors data from GitHub
    */
   async fetchContributorsData() {
-    const url = `${this.baseUrl}/${this.owner}/${this.repo}/graphs/contributors-data`;
+    // Try GitHub web endpoint first (works when authenticated or from browser)
+    const webUrl = `${this.baseUrl}/${this.owner}/${this.repo}/graphs/contributors-data`;
+    
+    // Fallback to GitHub API endpoint
+    const apiUrl = `api.github.com`;
+    const apiPath = `/repos/${this.owner}/${this.repo}/stats/contributors`;
 
     const options = {
       method: "GET",
@@ -43,12 +48,126 @@ class GitHubContributorsFetcher {
 
     // Add authentication if token is provided
     if (this.token) {
-      options.headers["Authorization"] = `token ${this.token}`;
+      options.headers["Authorization"] = `Bearer ${this.token}`;
     }
 
+    // Try web endpoint first
+    try {
+      const webData = await this.makeRequest(webUrl, options);
+      if (webData && Array.isArray(webData) && webData.length > 0) {
+        return webData;
+      }
+    } catch (error) {
+      console.log(`⚠️  Web endpoint failed: ${error.message}, trying API endpoint...`);
+    }
+
+    // Fallback to GitHub API
+    console.log("📡 Using GitHub REST API endpoint...");
+    const apiOptions = {
+      hostname: apiUrl,
+      path: apiPath,
+      method: "GET",
+      headers: {
+        Accept: "application/vnd.github+json",
+        "User-Agent": "GitHub-Contributors-Fetcher/1.0",
+      },
+    };
+
+    if (this.token) {
+      apiOptions.headers["Authorization"] = `Bearer ${this.token}`;
+    }
+
+    try {
+      const apiData = await this.makeApiRequest(apiOptions);
+      return apiData;
+    } catch (error) {
+      throw new Error(`Both endpoints failed. API error: ${error.message}`);
+    }
+  }
+
+  /**
+   * Make request to GitHub web endpoint
+   */
+  makeRequest(url, options) {
     return new Promise((resolve, reject) => {
       const req = https.request(url, options, (res) => {
         let data = "";
+
+        // Log status code for debugging
+        if (res.statusCode !== 200) {
+          console.log(`⚠️  HTTP Status: ${res.statusCode}`);
+        }
+
+        res.on("data", (chunk) => {
+          data += chunk;
+        });
+
+        res.on("end", () => {
+          // Check if response is empty
+          if (!data || data.trim().length === 0) {
+            reject(new Error(`Empty response from server (Status: ${res.statusCode})`));
+            return;
+          }
+
+          // Check if response is HTML (error page)
+          if (data.trim().startsWith("<!DOCTYPE") || data.trim().startsWith("<html")) {
+            reject(new Error(`Received HTML instead of JSON (Status: ${res.statusCode}). This endpoint may require authentication.`));
+            return;
+          }
+
+          try {
+            const jsonData = JSON.parse(data);
+            resolve(jsonData);
+          } catch (error) {
+            // Log first 200 chars of response for debugging
+            const preview = data.substring(0, 200);
+            reject(
+              new Error(`Failed to parse JSON response: ${error.message}. Response preview: ${preview}...`)
+            );
+          }
+        });
+      });
+
+      req.on("error", (error) => {
+        reject(new Error(`Request failed: ${error.message}`));
+      });
+
+      req.setTimeout(30000, () => {
+        req.destroy();
+        reject(new Error("Request timeout after 30 seconds"));
+      });
+
+      req.end();
+    });
+  }
+
+  /**
+   * Make request to GitHub API endpoint
+   */
+  makeApiRequest(options) {
+    return new Promise((resolve, reject) => {
+      const req = https.request(options, (res) => {
+        let data = "";
+
+        if (res.statusCode === 202) {
+          // API is computing stats, need to wait and retry
+          console.log("⏳ GitHub API is computing stats, this may take a moment...");
+          setTimeout(() => {
+            this.makeApiRequest(options).then(resolve).catch(reject);
+          }, 2000);
+          return;
+        }
+
+        if (res.statusCode !== 200) {
+          let errorData = "";
+          res.on("data", (chunk) => {
+            errorData += chunk;
+          });
+          res.on("end", () => {
+            reject(new Error(`API request failed with status ${res.statusCode}: ${errorData}`));
+          });
+          return;
+        }
 
         res.on("data", (chunk) => {
           data += chunk;
@@ -59,15 +178,18 @@ class GitHubContributorsFetcher {
             const jsonData = JSON.parse(data);
             resolve(jsonData);
           } catch (error) {
-            reject(
-              new Error(`Failed to parse JSON response: ${error.message}`)
-            );
+            reject(new Error(`Failed to parse API JSON response: ${error.message}`));
           }
         });
       });
 
       req.on("error", (error) => {
-        reject(new Error(`Request failed: ${error.message}`));
+        reject(new Error(`API request failed: ${error.message}`));
+      });
+
+      req.setTimeout(60000, () => {
+        req.destroy();
+        reject(new Error("API request timeout after 60 seconds"));
       });
 
       req.end();
@@ -76,25 +198,30 @@ class GitHubContributorsFetcher {
 
   /**
    * Process contributors data and extract useful information
+   * Handles both GitHub web endpoint and GitHub API formats
    */
   processContributorsData(rawData) {
     const contributors = [];
 
     if (rawData && Array.isArray(rawData)) {
       rawData.forEach((contributor) => {
+        // Handle both formats (web endpoint and API endpoint use same structure)
+        const author = contributor.author || {};
+        
         const processedContributor = {
           author: {
-            login: contributor.author?.login || "Unknown",
-            id: contributor.author?.id || null,
-            avatar_url: contributor.author?.avatar_url || null,
-            html_url: contributor.author?.html_url || null,
-            type: contributor.author?.type || "User",
+            login: author.login || "Unknown",
+            id: author.id || null,
+            avatar_url: author.avatar_url || null,
+            html_url: author.html_url || null,
+            type: author.type || "User",
           },
           total_commits: contributor.total || 0,
           weeks: [],
         };
 
         // Process weekly commit data
+        // Both formats use: {w: unix_timestamp, c: commits, a: additions, d: deletions}
         if (contributor.weeks && Array.isArray(contributor.weeks)) {
           contributor.weeks.forEach((week) => {
             processedContributor.weeks.push({
