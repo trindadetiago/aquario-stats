@@ -89,8 +89,8 @@ echo ""
 echo "🔄 Step 1: Fetching Contributor Data"
 echo "===================================="
 
-print_status "Fetching data from ralfferreira/aquario..."
-if node scripts/fetch-contributors.js ralfferreira aquario; then
+print_status "Fetching data from aquario-ufpb/aquario..."
+if node scripts/fetch-contributors.js aquario-ufpb aquario; then
     print_success "✅ Contributor data fetched successfully"
 else
     print_error "Failed to fetch contributor data"

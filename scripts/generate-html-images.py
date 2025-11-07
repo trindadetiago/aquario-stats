@@ -95,7 +95,7 @@ class HTMLStatsGenerator:
         contributors_data.sort(key=lambda x: x['commits'], reverse=True)
         
         return {
-            'repository': self.data.get('repository', 'ralfferreira/aquario'),
+            'repository': self.data.get('repository', 'aquario-ufpb/aquario'),
             'total_contributors': len(contributors),
             'total_commits': stats.get('total_commits', sum(c['commits'] for c in contributors_data)),
             'total_additions': total_additions,

@@ -1,6 +1,6 @@
 # 📊 Aquário Stats
 
-> Gerador automático de estatísticas de contribuidores para o repositório [Aquário](https://github.com/ralfferreira/aquario)
+> Gerador automático de estatísticas de contribuidores para o repositório [Aquário](https://github.com/aquario-ufpb/aquario)
 
 ## 🎯 Sobre
 
@@ -56,7 +56,7 @@ aquario-stats/
 
 ### 1. **Coleta de Dados** (`fetch-contributors.js`)
 - Conecta à API do GitHub
-- Busca dados completos dos contribuidores do repositório `ralfferreira/aquario`
+- Busca dados completos dos contribuidores do repositório `aquario-ufpb/aquario`
 - Salva os dados em arquivos JSON para processamento
 
 ### 2. **Geração de Insights** (`generate-insights.js`)
@@ -84,7 +84,7 @@ O script gera um arquivo `CONTRIBUTOR_INSIGHTS.md` com:
 ```markdown
 # 📊 Contributor Insights
 
-> **Repository:** ralfferreira/aquario  
+> **Repository:** aquario-ufpb/aquario  
 > **Last Updated:** Sunday, January 12, 2025 at 02:00 AM  
 
 ## 🎯 Overview
@@ -126,7 +126,7 @@ O script gera um arquivo `CONTRIBUTOR_INSIGHTS.md` com:
 
 ```bash
 # Buscar dados dos contribuidores
-node scripts/fetch-contributors.js ralfferreira aquario
+node scripts/fetch-contributors.js aquario-ufpb aquario
 
 # Gerar insights
 node scripts/generate-insights.js
@@ -147,7 +147,7 @@ O workflow é executado automaticamente:
 Para integrar as estatísticas ao repositório principal do Aquário:
 
 1. **Copie o conteúdo** do arquivo `CONTRIBUTOR_INSIGHTS.md` gerado
-2. **Cole no README** ou crie uma seção dedicada no repositório `ralfferreira/aquario`
+2. **Cole no README** ou crie uma seção dedicada no repositório `aquario-ufpb/aquario`
 3. **Inclua as imagens** da pasta `images/` para visualizações
 4. **Atualize periodicamente** ou configure webhook para atualização automática
 
