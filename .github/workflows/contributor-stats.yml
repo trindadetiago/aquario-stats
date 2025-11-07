@@ -41,7 +41,7 @@ jobs:
 
       - name: Fetch contributor data
         run: |
-          node scripts/fetch-contributors.js ralfferreira aquario
+          node scripts/fetch-contributors.js aquario-ufpb aquario
 
       - name: Generate insights markdown
         run: |
